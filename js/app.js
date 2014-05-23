@@ -63,7 +63,7 @@ $(document).ready(function(){
  
 		$('#guessList').prepend(guesses[guesses.length-1]+"  "+response+'<br>');
 		$('#count').text(guesses.length);
-		$('#userGuess').val("");
+		$('#userGuess').val("").focus();
 	}
 });
 });
